@@ -1,0 +1,10 @@
+:root, [data-bs-theme=light] {
+  --bs-body-bg: rgb(237,247,86);
+  --bs-body-bg-rgb: 237,247,86;
+}
+
+[data-bs-theme=dark] {
+  --bs-body-bg: #161748;
+  --bs-body-bg-rgb: 22,23,72;
+}
+
