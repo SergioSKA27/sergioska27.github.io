@@ -1,0 +1,36 @@
+.skills section span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #bbb;
+  border-radius: 15px;
+  /*float: right;*/
+  /*margin: 2px;*/
+}
+
+.skills section span.full {
+  background: var(--primary-dark);
+}
+
+.skills section p {
+  float: left;
+  /*max-width: 50%;*/
+  word-break: break-word;
+  font-size: smaller;
+}
+
+.skills section {
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  width: auto;
+}
+
+section {
+}
+
